@@ -32,10 +32,6 @@ func ShowCurrentDir() error {
 		return err
 	}
 	ShowAllDirs(c)
-	// if err != nil {
-	// 	fmt.Println("	", color.RedString(err.Error()))
-	// 	return err
-	// }
 	fmt.Println("	Current dir:", color.GreenString(dir))
 	return nil
 }
